@@ -9,7 +9,7 @@ namespace DualTimers {
 			Console.WriteLine ("Timing Class");
 
 			Timer timer1 = new (5000);
-			timer1.Elapsed += ONTimer1;
+			timer1.Elapsed += OnTimer1;
 			timer1.AutoReset = true;
 			timer1.Enabled = true;
 
@@ -28,7 +28,7 @@ namespace DualTimers {
 			timer2.Dispose ();
 		}
 
-		private void ONTimer1 (object source, ElapsedEventArgs e) {
+		private void OnTimer1 (object source, ElapsedEventArgs e) {
 			Console.ForegroundColor = ConsoleColor.Cyan;
 			Console.WriteLine ("-- Timer 1: " + e.SignalTime);
 		}
