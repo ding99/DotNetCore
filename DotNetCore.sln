@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Times", "Times", "{BD153984-59BF-4B2E-8732-3068D54F4529}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DualTimers", "Times\DualTimers\DualTimers.csproj", "{DA16AC3B-22BA-4EBF-B027-B647AC493145}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DualTimers", "Times\DualTimers\DualTimers.csproj", "{DA16AC3B-22BA-4EBF-B027-B647AC493145}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRChat", "SignalRChat\SignalRChat.csproj", "{72D91343-1174-423F-A3E7-0ABD8A59C00C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +19,10 @@ Global
 		{DA16AC3B-22BA-4EBF-B027-B647AC493145}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA16AC3B-22BA-4EBF-B027-B647AC493145}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA16AC3B-22BA-4EBF-B027-B647AC493145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72D91343-1174-423F-A3E7-0ABD8A59C00C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72D91343-1174-423F-A3E7-0ABD8A59C00C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72D91343-1174-423F-A3E7-0ABD8A59C00C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72D91343-1174-423F-A3E7-0ABD8A59C00C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
