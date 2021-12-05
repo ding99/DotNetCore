@@ -2,13 +2,13 @@
 
 namespace DualTimers {
 	class Program {
-		static void Main() {
-			Console.WriteLine("== Dual Timers");
+		static void Main () {
+			Console.WriteLine ("== Dual Timers");
 
-			new Timing().Start();
-			Console.ResetColor();
+			new Timing ().Start ();
 
-			Console.WriteLine("== End");
+			Console.ResetColor ();
+			Console.WriteLine ("== End");
 		}
 	}
 }
